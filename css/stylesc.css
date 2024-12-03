@@ -7,150 +7,11 @@ Russian Violet #2D1442
 Dark Cyan #0F8B8D
 Sunglow #FFC857
 White #FFFFFF
-*/
-
-/*Drop Down Nav
-
-
-.navbar {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    background-color: #2D1442;
-    font-family: 'Trebuchet MS', sans-serif;   
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
- 
-.navbar img {
-    width: 60px;
-    height: auto;
-    padding: 10px;
-}
-
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .drop-button {
-    font-size: 18px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-
-  .drop-button {
-    color: white;
-  }
-  
-  .navbar a:hover, .dropdown:hover .drop-button {
-    background-color: #78103F;
-    color: #FFC857;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    border-radius: 0 10px 10px 10px;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 9999;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: #283d3b;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    color: #0F8B8D;
-    background-color: #FFC857;
-    border-radius: 0 10px 10px 10px;
-    font-weight: bold;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-
-.menu-icon {
-    font-size: 2em;         
-    color: #fff;           
- }
-
-#checkbox {
-display: none;  
-}
-
-
-
-/* desktop/large screen settings 
-@media screen and (min-width: 631px) {     
-.menu-icon {
-  display: none;        
-}
-}
-
-/* Mobile screen settings 
-
-@media screen and (max-width: 630px) {
-
-.menu-icon {
-    cursor: pointer;
-    padding: 10px;
-}
-
-.navbar {
-  width: 100%;
-  height: auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.navbar img {
-    display: none;
-}
-
-.hamburger {
-  visibility: hidden;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  display: none;
-}
-
-.menu-wrap #checkbox:checked ~ .hamburger {
-    display: flex;
-    visibility: visible;
-    }
-
-}
+Pink #DB1A77
 */
 
 
-/*GENERAL STYLES*/
+/*BOOTSTRAP - CUSTOM COLORS*/
 
 
 .custom-bg-primary {
@@ -165,6 +26,9 @@ display: none;
   border-color: #2D1442; /* Custom border color */
 }
 
+
+/*GENERAL STYLES*/
+
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -176,6 +40,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, button, .navbar, .dropdown-menu {
 .navbar .nav-link:hover {
   color: #FFC857; /* Text color on hover */
   background-color: #78103F; /* Background color on hover */
+  font-weight: bold;
 }
 
 .navbar .dropdown-item:hover {
@@ -184,6 +49,22 @@ body, h1, h2, h3, h4, h5, h6, p, a, button, .navbar, .dropdown-menu {
   font-weight: bold;
 }
 
+.site {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto repeat(6, 376);
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+  
+  .menu-wrap {
+      grid-column: 1/6; /* Adjust to fit the width of your grid layout */
+      grid-row: 1/2; /* Place the navigation at the top */
+      z-index: 10; /* Ensure it sits above other content*/
+  }
+  
 
 
 
@@ -214,7 +95,15 @@ img {
    padding: 20px 40px;
 }
 
-/*THUMBNAIL CAPTION*/
+.masthead h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+
+/*
+
+/*THUMBNAIL CAPTION
 
 .thumbnail-content h3 {
     text-align: center;
@@ -240,7 +129,7 @@ img {
 
 
 
-/*Grid Rules*/
+/*Grid Rules
 
 .site {
   display: grid;
@@ -253,9 +142,9 @@ img {
 }
 
 .menu-wrap {
-    grid-column: 1/6; /* Adjust to fit the width of your grid layout */
-    grid-row: 1/2; /* Place the navigation at the top */
-    z-index: 10; /* Ensure it sits above other content */
+    grid-column: 1/6; /* Adjust to fit the width of your grid layout 
+    grid-row: 1/2; /* Place the navigation at the top 
+    z-index: 10; /* Ensure it sits above other content 
 }
 
 
@@ -329,7 +218,7 @@ footer {
     grid-row: 2/3;
 }
 
-/*Grid Media*/
+/*Grid Media
 
 
 @media screen and (max-width:820px) {
@@ -345,9 +234,9 @@ footer {
 }
 
 .menu-wrap {
-    grid-column: 1/6; /* Adjust to fit the width of your grid layout */
-    grid-row: 1/2; /* Place the navigation at the top */
-    z-index: 10; /* Ensure it sits above other content */
+    grid-column: 1/6; /* Adjust to fit the width of your grid layout 
+    grid-row: 1/2; /* Place the navigation at the top 
+    z-index: 10; /* Ensure it sits above other content 
 }
 
 .masthead {
@@ -421,9 +310,9 @@ footer {
     }
 
     .menu-wrap {
-        grid-column: 1/6; /* Adjust to fit the width of your grid layout */
-        grid-row: 1/2; /* Place the navigation at the top */
-        z-index: 10; /* Ensure it sits above other content */
+        grid-column: 1/6; /* Adjust to fit the width of your grid layout *
+        grid-row: 1/2; /* Place the navigation at the top 
+        z-index: 10; /* Ensure it sits above other content 
     }
     
     .masthead {
@@ -494,7 +383,7 @@ footer {
 #footer-header {
     color: #fbf5ee;
     font-size: large;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 footer div {
