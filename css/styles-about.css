@@ -1,5 +1,7 @@
 /*Andrew Armas. WEB 210 - FINAL PROJECT*/
 
+/*STYLE SHEET FOR ABOUT PAGE*/
+
 /*
 Color Palette
 Murray(Dark Magenta) #78103F
@@ -83,6 +85,7 @@ Pink #DB1A77
     .sidebar a:hover {
         color: #FFC857;
         font-weight: bold;
+        text-decoration: underline;
     }
 
     .contact-me {

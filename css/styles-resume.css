@@ -1,0 +1,121 @@
+/*Andrew Armas. WEB 210 - FINAL PROJECT*/
+
+/*STYLE SHEET FOR RESUME PAGE*/
+
+/*
+Color Palette
+Murray(Dark Magenta) #78103F
+Russian Violet #2D1442
+Dark Cyan #0F8B8D
+Sunglow #FFC857
+White #FFFFFF
+Pink #DB1A77
+*/
+
+/*Page Styles*/
+
+.custom-divider {
+    border-top: 2px solid #2D1442;
+    margin: 1rem 0;
+}
+
+#btn-resume {
+    background-color: #0F8B8D;
+}
+
+#btn-download {
+    background-color: #78103F;
+}
+
+#btn-gallery {
+    background-color: #2D1442;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+
+/*Resume Section Styles*/
+
+
+#resume-section {
+    background-color: #fff8ea;
+}
+
+#resume-section h1{
+    text-align: center;
+    font-weight: bold;
+    color: #b07f1f;
+    padding-top: 1rem;
+}
+
+.work-experience h2 {
+    font-weight: bold;
+    color: #0F8B8D;
+    margin-top: 1rem;
+}
+
+.work-experience h3 {
+    font-weight: bold;
+}
+
+.experience1 {
+    background-color: #c8eeee;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.experience2 {
+    background-color: #abeaea;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.education h2 {
+    font-weight: bold;
+    color: #DB1A77;
+    margin-top: 1rem;
+}
+
+.education h3 {
+    font-weight: bold;
+}
+
+.education-item1 {
+    background-color:#ffe9f4;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.education-item2 {
+    background-color:#ffdbec;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.education-item3 {
+    background-color:#ffc2e0;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*Gallery Section Styles*/
+
+#gallery-section {
+    background-color: #eee1fa;
+}
+
+#gallery-section h1{
+    text-align: center;
+    font-weight: bold;
+    color: #2D1442;
+    padding-top: 1rem;
+}

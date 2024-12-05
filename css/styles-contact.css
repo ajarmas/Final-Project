@@ -1,0 +1,87 @@
+/*Andrew Armas. WEB 210 - FINAL PROJECT*/
+
+/*STYLE SHEET FOR CONTACT PAGE*/
+
+/*
+Color Palette
+Murray(Dark Magenta) #78103F
+Russian Violet #2D1442
+Dark Cyan #0F8B8D
+Sunglow #FFC857
+White #FFFFFF
+Pink #DB1A77
+*/
+
+
+/*PAGE STYLES*/
+
+.container h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#header {
+    background-color: #DB1A77;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.contact-details {
+    background-color: #c8eeee;
+    padding-left: 20px;
+}
+
+.contact-details h2 {
+    color: #2D1442;
+    padding-bottom: 10px;
+}
+
+.contact-details h4 {
+    color: #0a4344;
+    font-weight: 600;
+}
+
+.contact-details h6 {
+    padding-bottom: 12px;
+    
+}
+
+
+
+
+
+.socials-contact {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.socials-contact li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.socials-contact li:first-child {
+    margin-left: 0;
+}
+
+.socials-contact img {
+    width: 32px;
+    border-radius: 0px;
+}
+
+.socials-contact img:hover {
+    opacity: 0.75;
+}
+
+
+
+#form-container {
+    background-color: #ffdc95;
+}
+
+.form-label {
+    font-weight: 600;
+}
